@@ -1,0 +1,49 @@
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr  3fr;
+    column-gap: 20px;
+}
+
+.left-site{
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.left-site h2{
+    line-height: 4;
+    padding-left: 20px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.left-site ul{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.left-site ul li{
+    list-style: none;
+    padding: 10px 0;
+    width: 200px;
+    margin: 8px 0;
+    border-radius: 5px;
+}
+
+.left-site ul li:hover{
+    background-color: rgba(128, 128, 128, 0.11);
+}
+
+.left-site ul li a{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 20px;
+    color: black;
+}
+
+
+.right-site{
+    border: 1px solid black;
+}
